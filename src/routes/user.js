@@ -5,4 +5,6 @@ const router = Router()
 // Routes for user
 router.get('/:id', user.getUser)
 
-export default router
+router.post('/createUser', user.createUser)
+
+export default router   
