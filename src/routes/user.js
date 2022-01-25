@@ -1,0 +1,8 @@
+import { Router } from 'express'
+const user = require('../controllers/user.controller')
+const router = Router()
+
+// Routes for user
+router.get('/:id', user.getUser)
+
+export default router

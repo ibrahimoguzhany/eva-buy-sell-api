@@ -1,0 +1,24 @@
+{
+  "name": "eva-buy-sell-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env NODE_ENV=development nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "sequelize": "^5.21.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
